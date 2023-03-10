@@ -16,7 +16,7 @@ namespace ConsoleApp1
                 
             Console.ReadLine();
 
-            if (0 < M[i]) Console.WriteLine("Числа больше нуля");
+            if (0 < M[i]) Console.WriteLine("Число больше нуля");
             else Console.WriteLine("Число меньше или равно нулю");
 
             if (M[i] < 125) Console.WriteLine("Но меньше 125");
